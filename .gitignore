@@ -1,0 +1,32 @@
+# Local game files and generated runtime state
+FT.exe
+FT.exe.*
+game*.dat
+ARTS.dat
+MAGIC.dat
+save.dat
+Uninst.isu
+model/
+movie/
+music/
+Music/
+analysis_out/
+*.log
+DDrawCompat-FT.ini
+FinalTacticsLauncher.ini
+
+# Build outputs
+dist/FinalTacticsLauncher.exe
+dist/staging/
+dist/*.tmp
+
+# Keep release package/checksums trackable
+!dist/*.zip
+!dist/SHA256SUMS.txt
+
+# Local tooling caches
+__pycache__/
+*.pyc
+.vs/
+bin/
+obj/
